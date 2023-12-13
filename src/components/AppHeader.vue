@@ -18,8 +18,6 @@ export default {
             <AppHeaderLogo />
             <AppHeaderMenu />
         </div>
-
-
     </header>
 </template>
 
