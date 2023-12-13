@@ -57,12 +57,12 @@ export default {
     <div class="banner">
 
         <!-- Menu Item -->
-        <div v-for="itemMenu in menuBannerFooter" class="banner-menu-item">
+        <a v-for="itemMenu in menuBannerFooter" class="banner-menu-item" :href="itemMenu.link">
 
             <img :src="getImagePath(itemMenu.icon)" :alt="itemMenu.tit">
             <h6>{{ itemMenu.title }}</h6>
 
-        </div>
+        </a>
 
     </div>
 </template>
@@ -75,6 +75,10 @@ export default {
     justify-content: center;
     gap: 70px;
     height: 140px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .banner-menu-item {
