@@ -1,9 +1,15 @@
 <script>
+import AppMainContainerSeriesCards from './AppMainContainerSeriesCards.vue';
 
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: {
+        AppMainContainerSeriesCards
+    }
 }
 
 </script>
-<template></template>
+<template>
+    <AppMainContainerSeriesCards />
+</template>
 <style scoped></style>
