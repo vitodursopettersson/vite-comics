@@ -1,0 +1,12 @@
+@import url(partials/reset.scss);
+@import url(partials/typography.scss);
+
+body {
+    background-color: #1C1C1C;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
