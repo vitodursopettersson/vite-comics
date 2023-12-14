@@ -94,8 +94,9 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    margin: 20px auto;
-    gap: 40px;
+    padding: 30px;
+    justify-content: space-between;
     flex-wrap: wrap;
+    row-gap: 20px;
 }
 </style>
