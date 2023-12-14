@@ -2,11 +2,13 @@
 
 import AppHeaderLogo from './AppHeaderLogo.vue';
 import AppHeaderMenu from './AppHeaderMenu.vue';
+import AppHeaderJumbotron from './AppHeaderJumbotron.vue';
 export default {
     name: 'AppHeader',
     components: {
         AppHeaderLogo,
         AppHeaderMenu,
+        AppHeaderJumbotron,
     }
 }
 
@@ -18,6 +20,7 @@ export default {
             <AppHeaderLogo />
             <AppHeaderMenu />
         </div>
+        <AppHeaderJumbotron />
     </header>
 </template>
 
